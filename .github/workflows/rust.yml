@@ -24,3 +24,7 @@ jobs:
           name: toolkit # optional, default is artifact
           # A file, directory or wildcard pattern that describes what to upload
           path: bin/*
+      - uses: AButler/upload-release-assets@v3.0
+        with:
+          files: "bin/*"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
