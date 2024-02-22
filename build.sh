@@ -1,3 +1,7 @@
+#!/bin/bash
+# add architecture
+rustup target add aarch64-apple-darwin
+
 declare -a progs=("fc-json")
 mkdir -p bin
 for prog in "${progs[@]}"
