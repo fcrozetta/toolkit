@@ -4,7 +4,7 @@ for prog in "${progs[@]}"
 do
     cd $prog
     cargo build --release
-    cp ./target/release/$prog bin/
+    cp ./target/release/$prog ../bin/
     cd ..
 done
 cd bin
