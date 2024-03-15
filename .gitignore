@@ -4,3 +4,6 @@
 # Rust
 .cargo
 target
+
+**.venv**
+**.vscode**
