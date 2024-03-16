@@ -1,4 +1,4 @@
-name: docs_build
+name: Documentation Build in new branch
 on:
   push:
     branches:

@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This toolkit is a collection of applicaions that were developed based on my daily needs. For this reason, most of the packages are built only for mac (apple silicon).
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+All the tools should have a build process and be packaged in a release. In the future, maybe some tools can be released as libraries to be installed, or docker images. :fingers_crossed_tone1:
