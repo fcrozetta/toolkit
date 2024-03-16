@@ -14,7 +14,7 @@ json2any input.json > out.json
 
 ## Original concept
 
-The original idea of this aplicattion was to receive a json file as input and output a sample that redacts all the data.
+The original idea of this aplicattion was to convert a json file and have the output as a sample that redacts all the data.
 
 Running the command:
 
