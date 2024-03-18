@@ -28,6 +28,4 @@ jobs:
             mkdocs-material-
       - run: |
           pip install mkdocs-material
-          cd docs 
-          echo "toolkit.fcrozetta.dev" > CNAME
           mkdocs gh-deploy --force
