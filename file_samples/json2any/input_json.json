@@ -1,0 +1,24 @@
+{
+    "key_int": 9999,
+    "key_float": 999999.9999,
+    "key_str": "Hello, world",
+    "key_list": [
+        1,
+        2,
+        3
+    ],
+    "key_dict": {
+        "k1": "v1",
+        "k2": "v2"
+    },
+    "nested_array_dict": [
+        {
+            "k1": "v1",
+            "k2": "v2"
+        },
+        {
+            "k3": "v3",
+            "k4": "v4"
+        }
+    ]
+}
