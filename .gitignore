@@ -7,3 +7,4 @@ target
 
 **.venv**
 **.vscode**
+**.DS_STORE
