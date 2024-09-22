@@ -1,34 +1,27 @@
 use clap::Parser;
-use colored::*;
-use json;
-use std::fs;
+use json::{self};
+use std::{fs, path::PathBuf};
+mod key_validation;
+mod json_utils;
 
 #[derive(Parser, Debug)]
-#[command(version, about, long_about=None)]
+#[command(version, about, long_about=None, author="Fernando Crozetta")]
 struct Args {
     #[arg(short, long)]
-    file: String,
+    file: PathBuf,
 
     #[arg(short, long)]
-    keys: String,
+    keys_to_check: String,
 }
 
 fn main() {
     let args = Args::parse();
     // * Input parsing
-    let input_str = fs::read_to_string(args.file).expect("unable to read file");
+    let input_str = fs::read_to_string(&args.file).expect("unable to read json file");
     let input_json = json::parse(&input_str).unwrap();
 
-    let keys_str = fs::read_to_string(args.keys).expect("unable to read file");
+    let keys_str = fs::read_to_string(args.keys_to_check).expect("unable to read keys file");
     let keys_json = json::parse(&keys_str).unwrap();
 
-    println!("|{: ^20}|{: ^20}|", "Target Key".bold(), "Match".bold(),);
-
-    for (key, _) in keys_json.entries() {
-        if input_json.has_key(&key) {
-            println!("|{:>20}|{:>20}|", key.green(), "OK".green())
-        } else {
-            println!("|{:>20}|{:>20}|", key.red(), "MISSING".red().bold())
-        }
-    }
+    // key_validation::validate(input_json, keys_json);
 }
