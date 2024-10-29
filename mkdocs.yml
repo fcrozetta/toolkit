@@ -5,13 +5,17 @@ repo_name: fcrozetta/toolkit
 copyright: Copyright &copy; 2024 Fernando Crozetta
 plugins:
   - search
+
   - tags:
       tags_file: _tags.md
 extra:
   tags:
     python: python
     rust: rust
+    beta: beta
+    cpp: cpp
     wip: wip
+    svelte: svelte
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/fcrozetta
@@ -42,13 +46,17 @@ markdown_extensions:
   - pymdownx.snippets
   - toc:
       permalink: true
+      title: On this page
 
 theme:
   icon:
     tag:
-      python: fontawesome/brands/python
-      rust: fontawesome/brands/rust
-      wip: fontawesome/solid/flask
+      python: material/language-python
+      rust: material/language-rust
+      beta: material/flask
+      cpp: material/language-cpp
+      wip: material/beaker-alert
+      svelte: material/language-html5
   features:
     - navigation.instant
     - navigation.tabs
@@ -56,6 +64,9 @@ theme:
     - search.highlight
     - navigation.footer
     - content.tabs.link
+    - toc.follow
+    - toc.integrate
+
   name: material
   palette:
     # Palette toggle for automatic mode

@@ -1,5 +1,5 @@
-# Apps
+# Index
 
-Apps, by language
+Applications, by Tags
 
 <!-- material/tags -->
