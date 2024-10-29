@@ -1,8 +1,4 @@
 # toolkit
-Personal tools to make my life easier
 
-## Quickstart
-- Clone the repo
-- Install dependencies(?)
-- add bin/ to PATH
-- fc.* tools available
+Documentation on tools that I created to make my life easier
+you can see it live on [my personal page](https://toolkit.fcrozetta.dev)
