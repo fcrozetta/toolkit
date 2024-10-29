@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://toolkit.fcrozetta.dev/</loc>
+         <lastmod>2024-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://toolkit.fcrozetta.dev/CLI/fc-json/</loc>
+         <lastmod>2024-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://toolkit.fcrozetta.dev/Docker/ananke/</loc>
+         <lastmod>2024-10-29</lastmod>
+    </url>
+    <url>
+         <loc>https://toolkit.fcrozetta.dev/_tags/</loc>
+         <lastmod>2024-10-29</lastmod>
+    </url>
+</urlset>
