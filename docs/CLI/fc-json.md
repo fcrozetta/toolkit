@@ -4,9 +4,9 @@ tags:
     - beta
 ---
 
-# fc-json
 [:simple-github: Repository](https://github.com/fcrozetta/fc.json) |
 [:material-download: Releases](https://github.com/fcrozetta/fc.json/releases/latest)
+# fc-json
 
 ## Introduction
 
@@ -28,7 +28,8 @@ fc-json myFile.json > schemas.py
     --8<-- "docs/file_samples/fc-json/sample.py"
     ```
 
-> **Note:** myFile.json need to be a valid json
+!!! note
+    myFile.json need to be a valid json
 
 The root of the file will be called *Root*, and when creating the names of the schemas, you will get a full path, separated by *underscores*, with the suffix *Schema* attached to it.
 
