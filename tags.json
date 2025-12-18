@@ -1,0 +1,1 @@
+{"mappings": [{"item": {"url": "CLI/fc-json/", "title": "Fc json"}, "tags": ["beta", "cpp"]}, {"item": {"url": "Docker/ananke/", "title": "Ananke"}, "tags": ["python", "svelte", "wip"]}, {"item": {"url": "Libraries/fc.tui-core/", "title": "Fc.tui core"}, "tags": ["csharp"]}, {"item": {"url": "Libraries/moirai/", "title": "Moirai"}, "tags": ["python", "wip"]}]}
