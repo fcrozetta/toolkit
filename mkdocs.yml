@@ -3,6 +3,17 @@ site_url: https://toolkit.fcrozetta.dev
 repo_url: https://github.com/fcrozetta/toolkit
 repo_name: fcrozetta/toolkit
 copyright: Copyright &copy; 2024 Fernando Crozetta
+nav:
+  - Home: index.md
+  - CLI:
+      - fc-json: CLI/fc-json.md
+      - kubeforward: CLI/kubeforward.md
+  - Libraries:
+      - moirai: Libraries/moirai.md
+      - fc.tui-core: Libraries/fc.tui-core.md
+  - Docker:
+      - ananke: Docker/ananke.md
+  - Tags: _tags.md
 plugins:
   - search
 
