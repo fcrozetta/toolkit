@@ -60,9 +60,6 @@ markdown_extensions:
       permalink: true
       title: On this page
 
-extra_css:
-  - stylesheets/brand.css
-
 theme:
   icon:
     admonition:
