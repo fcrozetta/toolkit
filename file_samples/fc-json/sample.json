@@ -1,0 +1,8 @@
+{
+    "myString": "hello world",
+    "myNumber": 123.456,
+    "myObject": {
+        "innerString": "hello",
+        "innerNumber": 3.1415
+    }
+}
